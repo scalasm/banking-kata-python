@@ -19,11 +19,11 @@ classifiers = [
 Changelog = "https://github.com/scalasm/banking-kata-python/releases"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.10"
 click = "^8.0.1"
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.2.5"
+pytest = "^7.1.2"
 coverage = {extras = ["toml"], version = "^6.1"}
 safety = "^1.10.3"
 mypy = "^0.910"
@@ -46,6 +46,9 @@ sphinx-click = "^3.0.2"
 Pygments = "^2.10.0"
 pyupgrade = "^2.29.1"
 furo = ">=2021.11.12"
+# Pinning this because of https://github.com/PyCQA/bandit/issues/841
+bandit = "1.7.2"
+pytest-mock = "^3.7.0"
 
 [tool.poetry.scripts]
 banking-kata-python = "banking_kata.__main__:main"

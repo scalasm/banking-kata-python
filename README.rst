@@ -39,13 +39,15 @@ Banking Kata Python
 Features
 --------
 
-* TODO
+* Simple exercise for Use-case driven testing.
 
 
 Requirements
 ------------
 
-* TODO
+* Python 3.10 
+* Poetry
+* Docker containers (if you want to use remote containers and Visual Studio Code)
 
 
 Installation
