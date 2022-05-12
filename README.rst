@@ -45,7 +45,7 @@ Features
 Requirements
 ------------
 
-* Python 3.10 
+* Python 3.10
 * Poetry
 * Docker containers (if you want to use remote containers and Visual Studio Code)
 

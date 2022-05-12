@@ -65,6 +65,9 @@ source = ["banking_kata", "tests"]
 show_missing = true
 fail_under = 100
 
+[tool.black]
+line-length = 80
+
 [tool.mypy]
 strict = true
 warn_unreachable = true
